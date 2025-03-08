@@ -273,10 +273,7 @@ useEffect(() => {
         <div className="show-more">
           {isEditMode && editedBill && !isNew ? (
             <>
-              {/* {isEditModalOpen && (
-              
-            )} */}
-
+           
             </>
 
           ) : isBillVisible && selectedBill && !isNew ? (
