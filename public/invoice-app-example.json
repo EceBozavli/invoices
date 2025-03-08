@@ -1,0 +1,39 @@
+{
+  "invoice": {
+    "id": "XM9141",
+    "description": "Graphic Design",
+    "billFrom": {
+      "streetAddress": "19 Union Terrace",
+      "city": "London",
+      "postCode": "E1 3EZ",
+      "country": "United Kingdom"
+    },
+    "billTo": {
+      "clientName": "Alex Grim",
+      "clientEmail": "alexgrim@mail.com",
+      "address": "84 Church Way",
+      "city": "Bradford",
+      "postCode": "BD1 9PB",
+      "country": "United Kingdom"
+    },
+    "invoiceDate": "21 Aug 2021",
+    "paymentDue": "20 Sep 2021",
+    "paymentTerms": "Net 30 Days",
+    "items": [
+      {
+        "itemName": "Banner Design",
+        "quantity": 1,
+        "price": 156.00,
+        "total": 156.00
+      },
+      {
+        "itemName": "Email Design",
+        "quantity": 2,
+        "price": 200.00,
+        "total": 400.00
+      }
+    ],
+    "grandTotal": 556.00,
+    "status": "Pending"
+  }
+}
