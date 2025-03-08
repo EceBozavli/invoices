@@ -261,7 +261,7 @@ useEffect(() => {
                 </div>
                 <button className="new-btn" onClick={handleAddNewInvoice}>
                   <div className="btn-inner">
-                    <img src="./public/img/plus.svg" alt="New" />
+                    <img src="./img/plus.svg" alt="New" />
                     <p>New</p>
                   </div>
                 </button>
