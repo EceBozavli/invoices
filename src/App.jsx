@@ -196,7 +196,7 @@ useEffect(() => {
     <>
       <div className="container">
         <div className="header">
-          <img src="./public/img/logo.svg" className="logo" />
+          <img src="./img/logo.svg" className="logo" />
           <div className="header-inner">
             <div
               className="input"
@@ -212,13 +212,13 @@ useEffect(() => {
                 />
               </label>
               {theme === "dark" ? (
-                <img src="./public/img/circle.svg" alt="Dark Mode" className="mode" />
+                <img src="./img/circle.svg" alt="Dark Mode" className="mode" />
               ) : (
-                <img src="./public/img/moon.svg" alt="Light Mode" className="mode"/>
+                <img src="./img/moon.svg" alt="Light Mode" className="mode"/>
               )}
             </div>
             <div className="avatar">
-              <img src="./public/img/avatar.svg" alt="Avatar" />
+              <img src="./img/avatar.svg" alt="Avatar" />
             </div>
           </div>
         </div>
